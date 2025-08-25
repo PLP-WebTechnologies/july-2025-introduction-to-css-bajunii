@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>CSS Fundamentals & Box Model</h1>
+        <p class="subtitle">Understanding the building blocks of web styling</p>
+    </header>
+
+    <main>
+        <section id="introduction" class="content-section">
+            <h2>Introduction to CSS</h2>
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML. CSS describes how elements should be rendered on screen, on paper, or in other media.</p>
+            <p>This page demonstrates various CSS properties and the fundamental concept of the CSS Box Model.</p>
+        </section>
+
+        <section id="box-model" class="content-section highlighted">
+            <h2>The CSS Box Model</h2>
+            <p>Every element in CSS is essentially a rectangular box. The CSS box model describes how these boxes are structured:</p>
+            <div class="box-demo">
+                <div class="box-example">
+                    <p>Content Area</p>
+                </div>
+            </div>
+            <ul>
+                <li><strong>Content:</strong> The actual content of the element</li>
+                <li><strong>Padding:</strong> Space between content and border</li>
+                <li><strong>Border:</strong> A line around the padding and content</li>
+                <li><strong>Margin:</strong> Space outside the border</li>
+            </ul>
+        </section>
+
+        <section id="styling-examples" class="content-section">
+            <h2>CSS Styling Examples</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Typography</h3>
+                    <p>CSS allows you to control font properties, text color, spacing, and alignment to create readable and attractive text.</p>
+                    <button class="btn-primary">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Colors & Backgrounds</h3>
+                    <p>Use CSS to apply colors, gradients, and background images to make your content visually appealing.</p>
+                    <button class="btn-secondary">Explore</button>
+                </div>
+                <div class="card">
+                    <h3>Layout & Spacing</h3>
+                    <p>Master margins, padding, and borders to create well-structured layouts with proper spacing between elements.</p>
+                    <button class="btn-primary">Discover</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CSS Learning Demo. Created for educational purposes.</p>
+    </footer>
+</body>
+</html>
